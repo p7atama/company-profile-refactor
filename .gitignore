@@ -1,0 +1,10 @@
+# runtime artifacts
+application/logs/*
+!application/logs/index.html
+
+# local overrides
+application/config/database.local.php
+
+# os junk
+.DS_Store
+Thumbs.db

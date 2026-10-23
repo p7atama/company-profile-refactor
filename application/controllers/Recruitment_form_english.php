@@ -1,0 +1,16 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+ 
+class Recruitment_form_english extends CI_Controller {
+ 
+	 function __construct(){
+	 parent::__construct();
+	 $this->load->helper('url');
+	 }
+
+ public function index(){ 
+	 $this->load->view('_layouts/v_navbar');
+	 $this->load->view('recruitment_form_english');
+	 $this->load->view('_layouts/v_footer');
+	 }
+}
